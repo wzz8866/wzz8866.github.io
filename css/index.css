@@ -1,0 +1,522 @@
+
+/* 这是个通用的css文件 */
+html,
+body,
+div,
+span,
+a,
+img,
+em,
+i,
+p,
+ul,
+ol,
+li,
+dd,
+dt,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+strong,
+del {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+input {
+    border: 0;
+    outline:none;
+}
+img {
+    border: none;
+    vertical-align: middle;
+}
+li {
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+i,
+em {
+    font-style: normal;
+}
+b {
+    font-weight: 400;
+}
+.clearfix::after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix {
+    *zoom: 1;
+}
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+body {
+    background-color: #fff;
+}
+/* 头部开始 */
+.nav-head {
+    height: 90px;
+   border-bottom: 1px solid #5e5e5e;
+
+}
+.nav-head-conter {
+    height: 90px;
+    position: relative;
+}
+.nav-head-conter .log {
+    width: 121px;
+    height: 33px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+.nav-head-conter .log h1 {
+    width: 121px;
+    height: 33px;
+}
+.nav-head-conter .log a {
+    display: block;
+    width: 121px;
+    height: 33px;
+    background: url(../img/logo.png) no-repeat;
+
+}
+.nav-head-conter .yingYue {
+    width: 494px;
+    height: 90px;
+    position: absolute;
+    top: 0;
+    left: 200px;
+
+}
+.nav-head-conter li {
+    height: 90px;
+    line-height: 90px;
+    float: left;
+    padding: 0 20px;
+
+}
+.nav-head-conter li  a {
+    font-size: 20px;
+}
+.nav-head-conter li:hover {
+    background-color: #31c37d;
+}
+.nav-head-conter .right {
+    float: right;
+    height: 90px;
+    width: 506px;
+}
+.nav-head-conter .right .sousuo {
+    width: 216px;
+    height: 35px;
+    border: 1px solid #eaeaea;
+    float: left;
+    position: absolute;
+    top: 25px;
+    right: 284px;
+}
+.nav-head-conter .right .sousuo input {
+    width: 172px;
+    height: 35px;
+    padding-left: 10px;
+    float: left;
+}
+.nav-head-conter .right .sousuo b {
+    width: 34px;
+    height: 35px;
+    float: right;
+    background: url(../img/search.png) no-repeat center center;
+}
+.nav-head-conter .right .denglu {
+    position: absolute;
+    top: 34px;
+    right: 226px;
+}
+.nav-head-conter .right span {
+    display: block;
+    width: 110px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    position: absolute;
+    top: 24px;
+    right: 94px;
+    background-color: #30c378;
+}
+.nav-head-conter .right span a {
+    display: block;
+    width: 110px;
+    height: 38px;
+    font-size: 14px;
+    color: #fff;
+}
+.nav-head-conter .right i {
+    width: 81px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    border: 1px solid #d1d1d1;
+    position: absolute;
+    top: 24px;
+    right: 0;
+}
+.nav-head-conter .right i a {
+    display: block;
+    width: 81px;
+    height: 34px;
+    font-size: 14px;
+    color: #575758;
+}
+
+
+/* 头部结束 */
+/* banner开始 */
+.banner {
+    height: 732px;
+    background: url(../img/10.jpg) no-repeat ;
+}
+.banner-conter {
+    position: relative;
+}
+.banner .top {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top: 79px;
+    left: 50%;
+    margin-left: -100px;
+    font-size: 48px;
+    color: #fff;
+
+}
+.banner-conter .middle {
+    width: 444px;
+    height: 78px;
+    line-height: 78px;
+    position: absolute;
+    top: 144px;
+    left: 50%;
+    margin-left: -222px;
+    margin-top: 20px;
+}
+.banner-conter .middle li {
+    float: left;
+    margin-right: 68px;
+}
+.banner-conter .middle li:last-child {
+    margin-right: 0;
+}
+.banner-conter .middle li a {
+    font-size: 12px;
+    color: #fff;
+}
+.banner-conter .zhaopian {
+    position: absolute;
+    left: 0;
+    top: 240px;
+}
+.banner-conter .zhaopian li {
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+.banner-conter .zhaopian li a {
+    display: block;
+    width: 300px;
+    height: 414px;
+}
+.banner-conter .zhaopian li a div {
+    width: 300px;
+    height: 114px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    
+}
+.banner-conter .zhaopian li a div p:first-child {
+    font-size: 14px;
+    color: #cecece;
+    margin-top: 34px;
+}
+.banner-conter .zhaopian li a div p:last-child {
+    font-size: 12px;
+    color: #565656;
+    margin-top: 10px;
+}
+
+
+/* banner结束 */
+/* 热门开始 */
+.reMen {
+    position: relative;
+    height: 564px;
+}
+.reMen .top {
+    width: 1200px;
+    height: 148px;
+    text-align: center;
+    line-height: 148px;
+    font-size: 46px;
+    margin-top: 30px;
+}
+
+.reMen .zhaopian {
+    position: absolute;
+    left: 0;
+    top: 150px;
+}
+.reMen .zhaopian li {
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+.reMen .zhaopian li a {
+    display: block;
+    width: 300px;
+    height: 414px;
+}
+.reMen .zhaopian li a div {
+    width: 300px;
+    height: 114px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    
+}
+.reMen .zhaopian li a div p:first-child {
+    font-size: 14px;
+    color: #cecece;
+    margin-top: 34px;
+}
+.reMen .zhaopian li a div p:last-child {
+    font-size: 12px;
+    color: #565656;
+    margin-top: 10px;
+}
+
+/* 热门结束 */
+/* mv模块开始 */
+.mv {
+    height: 530px;
+    background-color: #e6e6e6;
+    margin-top: 113px;
+}
+.mv-conter {
+    height: 530px;
+    overflow: hidden;
+    position: relative;
+}
+.mv-conter .top {
+    width: 1200px;
+    height: 152px;
+    text-align: center;
+    line-height: 152px;
+    margin-top: 30px;
+    font-size: 46px;
+
+}
+.mv-conter .middle {
+    width: 558px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    margin-left: -279px;
+}
+.mv-conter .middle li {
+    float: left;
+    margin-right: 72px;
+}
+.mv-conter .middle li:last-child {
+    margin-right: 0;
+}
+.mv-conter .geshou {
+    height: 280px;
+    position: absolute;
+    top: 228px;
+    left: 0;
+}
+.mv-conter .geshou li {
+    width: 300px;
+    height: 280px;
+    float: left;
+    
+}
+.mv-conter .geshou li  a {
+    width: 300px;
+    height: 280px;
+    text-align: center;
+    
+}
+.mv-conter .geshou li img {
+    width: 300px;
+    height: 169px;
+}
+.mv-conter .geshou li  a p:nth-child(2) {
+    font-size: 14px;
+    color: #8e9387;
+    margin-top: 40px;
+}
+.mv-conter .geshou li  a p:nth-child(3) {
+    font-size: 12px;
+    color: #bcafa4;
+}
+.mv-conter .geshou li  a p:nth-child(4) {
+    font-size: 12px;
+    color: #bcafa4;
+}
+/* mv模块开始 */
+/* 底部开始 */
+.foolt {
+    height: 495px;
+    background-color: #333;
+}
+.foolt .foolt-conter-1 {
+    width: 468px;
+    height: 390px;
+    float: left;
+}
+.foolt .foolt-conter-1  span{
+    display: block;
+    font-size: 12px;
+    color: #7f7f7f;
+    margin-top: 81px;
+}
+.foolt .foolt-conter-1 ul  li {
+    width: 50px;
+    height: 128px;
+    float: left;
+}
+.foolt .foolt-conter-1 ul  li a {
+    display: block;
+    width: 50px;
+    height: 75px;
+
+}
+.foolt .foolt-conter-1 ul  li i {
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: url(../img/footer.png) no-repeat -1px -1px;
+    margin: 56px 0 16px 0;
+}
+.foolt .foolt-conter-1 ul  li b {
+    font-size: 12px;
+    color: #7f7f7f;
+}
+.foolt .foolt-conter-1 ul  li:nth-child(2) i {
+    background: url(../img/footer.png) no-repeat  -68px -1px;
+}
+.foolt .foolt-conter-1 ul  li:nth-child(3) i {
+    background: url(../img/footer.png) no-repeat  -140px -1px;
+}
+.foolt .foolt-conter-1 ul  li:nth-child(4) i {
+    background: url(../img/footer.png) no-repeat  -207px -1px;
+}
+.foolt .foolt-conter-1 ul  li:nth-child(1):hover i {
+    background: url(../img/footer.png) no-repeat  -68px -37px;
+}
+.foolt .foolt-conter-1 ul  li:nth-child(2):hover i {
+    background: url(../img/footer.png) no-repeat  -68px -37px;
+}
+.foolt .foolt-conter-1 ul  li:nth-child(3):hover i {
+    background: url(../img/footer.png) no-repeat  -140px -37px;
+}
+.foolt .foolt-conter-1 ul  li:nth-child(4):hover i {
+    background: url(../img/footer.png) no-repeat  -207px -37px;
+}
+.foolt .foolt-conter-2 {
+    width: 426px;
+    height: 390px;
+    float: left;
+}
+.foolt .foolt-conter-2 span {
+    display: block;
+    font-size: 12px;
+    color: #7f7f7f;
+    margin-top: 81px;
+    color: #7f7f7f;
+}
+.foolt .foolt-conter-2 ul  li {
+    width: 50px;
+    height: 128px;
+    float: left;
+}
+.foolt .foolt-conter-2 ul  li a {
+    display: block;
+    width: 50px;
+    height: 75px;
+
+}
+.foolt .foolt-conter-2 ul  li i {
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: url(../img/footer.png) no-repeat -276px -1px;
+    margin: 56px 0 16px 0;
+}
+.foolt .foolt-conter-2 ul  li b {
+    font-size: 12px;
+    color: #7f7f7f;
+}
+.foolt .foolt-conter-2 ul  li:nth-child(2) i {
+    background: url(../img/footer.png) no-repeat -345px -1px;
+}
+.foolt .foolt-conter-2 ul  li:nth-child(3) i {
+    background: url(../img/footer.png) no-repeat -417px -1px;
+}
+.foolt .foolt-conter-2 ul  li:nth-child(1):hover i {
+    background: url(../img/footer.png) no-repeat  -276px -37px;
+}
+.foolt .foolt-conter-2 ul  li:nth-child(2):hover i {
+    background: url(../img/footer.png) no-repeat  -345px -37px;
+}
+.foolt .foolt-conter-2 ul  li:nth-child(3):hover i {
+    background: url(../img/footer.png) no-repeat  -417px -37px;
+}
+.foolt .foolt-conter-3 {
+    width: 283px;
+    height: 390px;
+    float: left;
+}
+.foolt .foolt-conter-3 li {
+    float: left;
+    margin-right: 5px;
+    font-size: 12px;
+    
+}
+.foolt .foolt-conter-3 li a {
+    color: #7f7f7f;
+}
+.foolt .foolt-conter-3 span {
+    display: block;
+    margin: 81px 0 56px;
+    font-size: 12px;
+    color: #7f7f7f;
+}
+/* 底部结束 */
